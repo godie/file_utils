@@ -45,7 +45,7 @@ jobs:
       with:
         name: file-finder-windows-exe # Nombre del artefacto
         path: |
-          dist/FileFinder.exe # Ruta al ejecutable generado (¡actualizado con el nuevo nombre!)
-          config.json   # Incluye config.json para que el usuario lo tenga junto al .exe
+          dist/FileFinder.exe
+          config.json
         # Asegúrate de que config.json esté en la raíz de tu repositorio,
         # junto a main.py, gui_app.py, y file_search_logic.py
