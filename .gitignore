@@ -1,0 +1,22 @@
+# Directorios de PyInstaller
+dist/
+build/
+*.spec
+
+# Archivos de caché de Python
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+
+# Archivos específicos de macOS
+.DS_Store
+
+# Entornos virtuales
+# Si usas un entorno virtual, descomenta la línea que corresponda
+# venv/
+# .venv/
+
+# Archivos de log o bases de datos temporales (si los hubiera)
+*.log
+*.db
