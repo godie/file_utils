@@ -38,9 +38,9 @@ jobs:
       if: startsWith(github.ref, 'refs/tags/') # Asegura que solo se ejecute si es un push de tag
       with:
         files: |
-          dist/FileFinder.exe # Archivo .exe a adjuntar al release
-          config.json         # config.json externo a adjuntar al release
-        name: Release ${{ github.ref_name }} # Título del release (ej: Release v1.0.0)
-        tag_name: ${{ github.ref }} # El nombre del tag es el nombre del release
-        body: | # Descripción del release (puedes personalizar esto)
+          dist/FileFinder.exe
+          config.json
+        name: Release ${{ github.ref_name }}
+        tag_name: ${{ github.ref }}
+        body: |
           🎉 New Release: ${{ github.ref_name }} 🎉
